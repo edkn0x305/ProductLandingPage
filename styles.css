@@ -1,0 +1,69 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Baskervville', serif;
+    color: linen;
+    background-color: rgb(20, 30, 40);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    color: #02a5b4;
+}
+
+#header {
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    background-color: rgba(2, 42, 128, 0.65);
+    padding: 10px;
+}
+
+#header a {
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+/* Change background on mouse-over */
+#header a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#prices {
+    display: inline-flex;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+#services {
+    margin-top: 20px;
+}
+
+.level {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.grid {
+    display: flex;
+}
+
+.desc h2 {
+    vertical-align: middle;
+}
+
+main {
+    margin-top: 150px;
+}
