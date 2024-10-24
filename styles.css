@@ -16,6 +16,29 @@ h2, h3, h4, h5, h6 {
     color: #02a5b4;
 }
 
+p {
+    margin-right: 5rem;
+    text-align: justify;
+}
+
+.slogan {
+    font-size: 2rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.icon {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#hero {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
 #header {
     overflow: hidden;
     position: fixed;
@@ -49,6 +72,7 @@ h2, h3, h4, h5, h6 {
 
 #services {
     margin-top: 20px;
+    margin-bottom: 3em;
 }
 
 .level {
@@ -58,6 +82,10 @@ h2, h3, h4, h5, h6 {
 
 .grid {
     display: flex;
+}
+
+.grid h2 {
+    color: orangered;
 }
 
 .desc h2 {
